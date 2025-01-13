@@ -1,0 +1,51 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
+  <diagram name="第 1 页" id="XrnODZL8CpQf39fYEbnB">
+    <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gknTo1_wlxoOVpRpyZxY-1" value="MySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="220" y="240" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gknTo1_wlxoOVpRpyZxY-2" value="Ignite" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="650" y="110" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gknTo1_wlxoOVpRpyZxY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="gknTo1_wlxoOVpRpyZxY-3" target="gknTo1_wlxoOVpRpyZxY-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gknTo1_wlxoOVpRpyZxY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="gknTo1_wlxoOVpRpyZxY-3" target="gknTo1_wlxoOVpRpyZxY-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="398" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="390" />
+              <mxPoint x="400" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gknTo1_wlxoOVpRpyZxY-3" value="数据来源 - 接口、文件、MQ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="390" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gknTo1_wlxoOVpRpyZxY-5" value="批处理任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="560" y="360" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gknTo1_wlxoOVpRpyZxY-6" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="370" y="240" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gknTo1_wlxoOVpRpyZxY-9" value="日间、只读" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="130" y="270" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gknTo1_wlxoOVpRpyZxY-10" value="日间、读写" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="450" y="270" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gknTo1_wlxoOVpRpyZxY-11" value="东方财富数据中心..." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="250" y="460" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
