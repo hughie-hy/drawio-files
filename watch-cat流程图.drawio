@@ -1,9 +1,62 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.5">
   <diagram name="第 1 页" id="UgAic4va1u5n7OuIu1Mj">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Y0Scn42HUHjhEd6iXf1n-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y0Scn42HUHjhEd6iXf1n-1" target="Y0Scn42HUHjhEd6iXf1n-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0Scn42HUHjhEd6iXf1n-1" value="行情同步" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="120" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0Scn42HUHjhEd6iXf1n-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y0Scn42HUHjhEd6iXf1n-3" target="Y0Scn42HUHjhEd6iXf1n-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0Scn42HUHjhEd6iXf1n-3" value="监控规则检查" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="210" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0Scn42HUHjhEd6iXf1n-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y0Scn42HUHjhEd6iXf1n-4" target="Y0Scn42HUHjhEd6iXf1n-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0Scn42HUHjhEd6iXf1n-9" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y0Scn42HUHjhEd6iXf1n-8">
+          <mxGeometry x="-0.11" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0Scn42HUHjhEd6iXf1n-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y0Scn42HUHjhEd6iXf1n-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="315" />
+              <mxPoint x="390" y="440" />
+              <mxPoint x="328" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0Scn42HUHjhEd6iXf1n-16" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y0Scn42HUHjhEd6iXf1n-15">
+          <mxGeometry x="-0.8681" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0Scn42HUHjhEd6iXf1n-4" value="是否命中监控规则" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="227.5" y="290" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0Scn42HUHjhEd6iXf1n-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y0Scn42HUHjhEd6iXf1n-5" target="Y0Scn42HUHjhEd6iXf1n-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0Scn42HUHjhEd6iXf1n-5" value="发送告警" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="380" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0Scn42HUHjhEd6iXf1n-11" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="460" width="85" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0Scn42HUHjhEd6iXf1n-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y0Scn42HUHjhEd6iXf1n-12" target="Y0Scn42HUHjhEd6iXf1n-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0Scn42HUHjhEd6iXf1n-12" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="20" width="85" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
