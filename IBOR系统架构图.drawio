@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.1.0">
+  <diagram name="第 1 页" id="mvbguFp0REsoEauby3cI">
+    <mxGraphModel dx="1226" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C9YW7C0PD9s3nOmRNzH5-2" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="200" y="340" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="C9YW7C0PD9s3nOmRNzH5-11" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" vertex="1" parent="1">
+          <mxGeometry x="110" y="180" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="C9YW7C0PD9s3nOmRNzH5-12" value="交易事件服务" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Service_Plans.svg;" vertex="1" parent="1">
+          <mxGeometry x="560" y="380" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="C9YW7C0PD9s3nOmRNzH5-13" value="资产簿记引擎" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Service_Plans.svg;" vertex="1" parent="1">
+          <mxGeometry x="763" y="380" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="C9YW7C0PD9s3nOmRNzH5-14" value="指标计算引擎" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Service_Plans.svg;" vertex="1" parent="1">
+          <mxGeometry x="763" y="530" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="C9YW7C0PD9s3nOmRNzH5-15" value="风控计算引擎" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Service_Plans.svg;" vertex="1" parent="1">
+          <mxGeometry x="560" y="530" width="64" height="64" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
